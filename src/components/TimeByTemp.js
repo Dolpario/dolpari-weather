@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ScrollView, Dimensions } from 'react-native'
+import { StyleSheet, View, Dimensions } from 'react-native'
 import moment from 'moment';
-import { XAxis, LineChart } from 'react-native-svg-charts'
-import { Circle, G } from 'react-native-svg'
+import { LineChart } from 'react-native-svg-charts'
 import * as shape from 'd3-shape'
 
 export default class TimeByTemp extends Component {
     constructor(props) {
         super(props)
+
         this.state = {
             data: [],
             date: []
         }
-
     }
 
     componentDidMount() {
@@ -20,25 +19,23 @@ export default class TimeByTemp extends Component {
     }
 
     dataSet = () => {
-        const { timeByTemp } = this.props
-        var data = []
-        var date = []
+        const { timeByTemp } = this.props;
+        var data = [];
+        var date = [];
         timeByTemp.map(ele => {
             data.push(ele.main.temp)
             date.push(moment(ele.dt_txt).format("HH"))
-        })
-        this.setState({ data: data, date: date })
+        });
+        this.setState({ data: data, date: date });
     }
 
     render() {
-        const screenWidth = Dimensions.get('window').width;
-        const {data,date} = this.state
-        
+        const { data, date } = this.state
+
         console.log(this.state.data)
         return (
 
-            <View style={styles.container} >
-               
+            <View style={styles.container}>
                 <LineChart
                     style={{ height: '100%' }}
                     data={data}
@@ -51,19 +48,16 @@ export default class TimeByTemp extends Component {
 
         );
     };
-    // width={screenWidth} 
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-
+        flex: 1
     },
     weatherContainer: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-
         padding: 10
     }
 })

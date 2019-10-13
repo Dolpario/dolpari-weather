@@ -5,32 +5,37 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DolpariWeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DolpariWeatherAppTests.m */; };
+		0C75C45E1EAE4A51A3D15DB9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B24B56F0F8AD4052AEDC6D7B /* SimpleLineIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2571E5DE30C76D91788C49B0 /* libPods-DolpariWeatherApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3339B62B088B2C8E1C09A64 /* libPods-DolpariWeatherApp-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D77A85B91294CAB8916DA1A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD7E61F8A50C43D997EE6ADC /* FontAwesome5_Regular.ttf */; };
 		2DCD954D1E0B4F2C00145EB5 /* DolpariWeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DolpariWeatherAppTests.m */; };
 		2EBBC9AF85E24A429DE18689 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64221C0F9BC54B60B2135038 /* AntDesign.ttf */; };
-		9C051BB3AF654618A9D2A81B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CEE655181F849BDB45994DA /* Entypo.ttf */; };
-		F4F4F608D4D34305A1F3C455 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1A16BA15BE14C418A85D9A3 /* EvilIcons.ttf */; };
-		C53E53772F854B3A9B571220 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B8E1BAFEB403AB43651AB /* Feather.ttf */; };
-		D8C167ABF39147A480875952 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DADE8E14E89A4621BC83DDE0 /* FontAwesome.ttf */; };
-		A50F6EE66F8648F9B0156808 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006DE2B9BC35475EA352C4CF /* FontAwesome5_Brands.ttf */; };
-		2D77A85B91294CAB8916DA1A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD7E61F8A50C43D997EE6ADC /* FontAwesome5_Regular.ttf */; };
-		C72F4640103E414F85372DDD /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC12305883B347AFB2AB391E /* FontAwesome5_Solid.ttf */; };
-		F5CBA7A53B3A462EBBCD9C45 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6EB01431164C88A7D1B44F /* Fontisto.ttf */; };
-		EF80929DC3F348C1A1DFDFE3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA896BB1C281493FAF4714FE /* Foundation.ttf */; };
 		5D03093D091C4F1682F44301 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F421E231E53475D85DC5E39 /* Ionicons.ttf */; };
-		F4DCDC734C654B8C9E9D6413 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E95BEE03074DFE91C2963B /* MaterialCommunityIcons.ttf */; };
-		B42216FC87864E21BCEC1F19 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E514211234D540478D34E21B /* MaterialIcons.ttf */; };
-		7B8B31CE31734B54A25D3646 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C137966E311843019C102E7D /* Octicons.ttf */; };
-		0C75C45E1EAE4A51A3D15DB9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B24B56F0F8AD4052AEDC6D7B /* SimpleLineIcons.ttf */; };
 		5FE6EB50492C46E99CE1D3AF /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C9A7C0B1D8B46F7870CEC2F /* Zocial.ttf */; };
+		7B8B31CE31734B54A25D3646 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C137966E311843019C102E7D /* Octicons.ttf */; };
+		8CCCF2D6DC5AEEFCD39F9AB5 /* libPods-DolpariWeatherApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B91CE76A00A4DDE7081178 /* libPods-DolpariWeatherApp.a */; };
+		9C051BB3AF654618A9D2A81B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CEE655181F849BDB45994DA /* Entypo.ttf */; };
+		9EEB0EFD876EAFF2840A2F05 /* libPods-DolpariWeatherApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A54BB4883D46E7AD8966C1FD /* libPods-DolpariWeatherApp-tvOS.a */; };
+		A50F6EE66F8648F9B0156808 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006DE2B9BC35475EA352C4CF /* FontAwesome5_Brands.ttf */; };
+		B42216FC87864E21BCEC1F19 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E514211234D540478D34E21B /* MaterialIcons.ttf */; };
+		C53E53772F854B3A9B571220 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B8E1BAFEB403AB43651AB /* Feather.ttf */; };
+		C72F4640103E414F85372DDD /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC12305883B347AFB2AB391E /* FontAwesome5_Solid.ttf */; };
+		D8C167ABF39147A480875952 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DADE8E14E89A4621BC83DDE0 /* FontAwesome.ttf */; };
+		EF80929DC3F348C1A1DFDFE3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA896BB1C281493FAF4714FE /* Foundation.ttf */; };
+		F4DCDC734C654B8C9E9D6413 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E95BEE03074DFE91C2963B /* MaterialCommunityIcons.ttf */; };
+		F4F4F608D4D34305A1F3C455 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1A16BA15BE14C418A85D9A3 /* EvilIcons.ttf */; };
+		F5CBA7A53B3A462EBBCD9C45 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6EB01431164C88A7D1B44F /* Fontisto.ttf */; };
+		FF21E00D382728BD3DD6C4E6 /* libPods-DolpariWeatherAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6163E19D9F7B4C86FF91425 /* libPods-DolpariWeatherAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006DE2B9BC35475EA352C4CF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* DolpariWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolpariWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,26 +68,37 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DolpariWeatherApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DolpariWeatherApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DolpariWeatherApp/main.m; sourceTree = "<group>"; };
+		233BDC102CB80EE31F18D50D /* Pods-DolpariWeatherApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherApp-tvOS/Pods-DolpariWeatherApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2A3B8E1BAFEB403AB43651AB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		2CEE655181F849BDB45994DA /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* DolpariWeatherApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DolpariWeatherApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DolpariWeatherApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DolpariWeatherApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F1743EA2BBF8E46C298598 /* Pods-DolpariWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherApp/Pods-DolpariWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		42E95BEE03074DFE91C2963B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		62FF5AE5D1402F6BB4FABE0A /* Pods-DolpariWeatherApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherApp-tvOSTests/Pods-DolpariWeatherApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63E0403212F923A267320B59 /* Pods-DolpariWeatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherAppTests/Pods-DolpariWeatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64221C0F9BC54B60B2135038 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		6C9A7C0B1D8B46F7870CEC2F /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		7F421E231E53475D85DC5E39 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		80E8895FF483D8E92A58005E /* Pods-DolpariWeatherApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherApp-tvOS/Pods-DolpariWeatherApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		95F22B4DD4C4367D11B332B3 /* Pods-DolpariWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherApp.release.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherApp/Pods-DolpariWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		99B91CE76A00A4DDE7081178 /* libPods-DolpariWeatherApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolpariWeatherApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A16BA15BE14C418A85D9A3 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		A54BB4883D46E7AD8966C1FD /* libPods-DolpariWeatherApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolpariWeatherApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24B56F0F8AD4052AEDC6D7B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		BBADB425BE70374D6C0DC719 /* Pods-DolpariWeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherAppTests/Pods-DolpariWeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C137966E311843019C102E7D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C89950F37F837B67A45D6034 /* Pods-DolpariWeatherApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolpariWeatherApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DolpariWeatherApp-tvOSTests/Pods-DolpariWeatherApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DADE8E14E89A4621BC83DDE0 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		DC12305883B347AFB2AB391E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		E514211234D540478D34E21B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		64221C0F9BC54B60B2135038 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2CEE655181F849BDB45994DA /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A1A16BA15BE14C418A85D9A3 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2A3B8E1BAFEB403AB43651AB /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DADE8E14E89A4621BC83DDE0 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		006DE2B9BC35475EA352C4CF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FD7E61F8A50C43D997EE6ADC /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DC12305883B347AFB2AB391E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FA6EB01431164C88A7D1B44F /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FA896BB1C281493FAF4714FE /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7F421E231E53475D85DC5E39 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		42E95BEE03074DFE91C2963B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E514211234D540478D34E21B /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C137966E311843019C102E7D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B24B56F0F8AD4052AEDC6D7B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6C9A7C0B1D8B46F7870CEC2F /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3339B62B088B2C8E1C09A64 /* libPods-DolpariWeatherApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolpariWeatherApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6163E19D9F7B4C86FF91425 /* libPods-DolpariWeatherAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolpariWeatherAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6EB01431164C88A7D1B44F /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		FA896BB1C281493FAF4714FE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		FD7E61F8A50C43D997EE6ADC /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF21E00D382728BD3DD6C4E6 /* libPods-DolpariWeatherAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCCF2D6DC5AEEFCD39F9AB5 /* libPods-DolpariWeatherApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EEB0EFD876EAFF2840A2F05 /* libPods-DolpariWeatherApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2571E5DE30C76D91788C49B0 /* libPods-DolpariWeatherApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +173,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				99B91CE76A00A4DDE7081178 /* libPods-DolpariWeatherApp.a */,
+				A54BB4883D46E7AD8966C1FD /* libPods-DolpariWeatherApp-tvOS.a */,
+				F3339B62B088B2C8E1C09A64 /* libPods-DolpariWeatherApp-tvOSTests.a */,
+				F6163E19D9F7B4C86FF91425 /* libPods-DolpariWeatherAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +197,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				DF2A0D060E154346B7773EB4 /* Resources */,
+				A7628D1931FF20F2ED0620DE /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -189,8 +215,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A7628D1931FF20F2ED0620DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40F1743EA2BBF8E46C298598 /* Pods-DolpariWeatherApp.debug.xcconfig */,
+				95F22B4DD4C4367D11B332B3 /* Pods-DolpariWeatherApp.release.xcconfig */,
+				80E8895FF483D8E92A58005E /* Pods-DolpariWeatherApp-tvOS.debug.xcconfig */,
+				233BDC102CB80EE31F18D50D /* Pods-DolpariWeatherApp-tvOS.release.xcconfig */,
+				62FF5AE5D1402F6BB4FABE0A /* Pods-DolpariWeatherApp-tvOSTests.debug.xcconfig */,
+				C89950F37F837B67A45D6034 /* Pods-DolpariWeatherApp-tvOSTests.release.xcconfig */,
+				63E0403212F923A267320B59 /* Pods-DolpariWeatherAppTests.debug.xcconfig */,
+				BBADB425BE70374D6C0DC719 /* Pods-DolpariWeatherAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF2A0D060E154346B7773EB4 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				64221C0F9BC54B60B2135038 /* AntDesign.ttf */,
 				2CEE655181F849BDB45994DA /* Entypo.ttf */,
@@ -211,7 +252,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -220,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DolpariWeatherAppTests" */;
 			buildPhases = (
+				2F6837ABEFF5CC5A13522F04 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -238,18 +279,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DolpariWeatherApp" */;
 			buildPhases = (
+				7082FBD7A403ECAD01611A4A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				29E9B32983004268F48DF36B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DolpariWeatherApp;
-			productName = "DolpariWeatherApp";
+			productName = DolpariWeatherApp;
 			productReference = 13B07F961A680F5B00A75B9A /* DolpariWeatherApp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -257,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DolpariWeatherApp-tvOS" */;
 			buildPhases = (
+				94D69A397AB041601F87E63E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -276,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DolpariWeatherApp-tvOSTests" */;
 			buildPhases = (
+				945D967D9962FD22E3C5807A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -319,6 +364,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -400,6 +446,30 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		29E9B32983004268F48DF36B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DolpariWeatherApp/Pods-DolpariWeatherApp-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DolpariWeatherApp/Pods-DolpariWeatherApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +483,94 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2F6837ABEFF5CC5A13522F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolpariWeatherAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7082FBD7A403ECAD01611A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolpariWeatherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945D967D9962FD22E3C5807A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolpariWeatherApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94D69A397AB041601F87E63E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolpariWeatherApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -519,6 +677,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E0403212F923A267320B59 /* Pods-DolpariWeatherAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -541,6 +700,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBADB425BE70374D6C0DC719 /* Pods-DolpariWeatherAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -560,6 +720,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F1743EA2BBF8E46C298598 /* Pods-DolpariWeatherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -579,6 +740,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F22B4DD4C4367D11B332B3 /* Pods-DolpariWeatherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -597,6 +759,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E8895FF483D8E92A58005E /* Pods-DolpariWeatherApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -624,6 +787,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233BDC102CB80EE31F18D50D /* Pods-DolpariWeatherApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -651,6 +815,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FF5AE5D1402F6BB4FABE0A /* Pods-DolpariWeatherApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -677,6 +842,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89950F37F837B67A45D6034 /* Pods-DolpariWeatherApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

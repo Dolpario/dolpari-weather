@@ -4,14 +4,15 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 export default class Humidity extends Component {
     constructor(props) {
-        super(props)
-      }
+        super(props);
+    }
+
     render() {
-        const {humidity} =this.props
+        const { humidity } = this.props;
         return (
             <View style={styles.container}>
                 <Icon name='water-percent' size={50}></Icon>
-                <Text style={styles.HumidityFont}>{humidity}%</Text>
+                <Text style={styles.HumidityFont}>{ humidity }%</Text>
             </View>
         );
     };
@@ -22,10 +23,10 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-       
+
     },
-    HumidityFont:{
+    HumidityFont: {
         fontSize: 20,
-        marginLeft:10
-    }, 
+        marginLeft: 10
+    },
 })
