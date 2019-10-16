@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Dimensions, ScrollView, Text } from 'react-native'
 import WeatherContainer from './WeatherContainer'
 
+
 export default class HorizontalScrollViewScreen extends Component {
 
     constructor(props) {
@@ -20,6 +21,7 @@ export default class HorizontalScrollViewScreen extends Component {
             <ScrollView horizontal={true} pagingEnabled={true}>
                 <View style={styles.mainView}>
                     <View style={styles.container} width={this.screenWidth}>
+                        
                         <WeatherContainer
                             nowTemp={WeatherData.main.temp}
                             weatherCondition={WeatherData.weather[0].description}
@@ -30,6 +32,7 @@ export default class HorizontalScrollViewScreen extends Component {
                             timeByTemp={todayTimeByTemp}
                             timeCheack={false} />
                         {/* <WeatherContainer nowTemp={} weatherCondition={} city={} humidity={} wind={}  maxMinTemp={} timeByTemp={} /> */}
+                        
                     </View>
                     {dayListKey.map((ele, index) => {
                         return (<View style={styles.container} width={this.screenWidth} key={index}>

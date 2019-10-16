@@ -56,6 +56,7 @@ export default class App extends Component {
   getWeather = async (longitude, latitude) => {
     let { data } = await axios(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${Api_Key}&units=metric&lang=kr`)
     // console.log(data)
+
     this.setState({ WeatherData: data, city: data.name });
   }
 
