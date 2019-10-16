@@ -61,7 +61,7 @@ export default class App extends Component {
 
 
   fiveDaysGetWeather = async (longitude, latitude) => {
-    let { data } = await axios(`http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${Api_Key}&units=metric`)
+    let { data } = await axios(`http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${Api_Key}&units=metric&lang=kr`)
     // console.log(data)
     this.setState({ fiveWeatherData: data });
     this.setDayTimeArray();

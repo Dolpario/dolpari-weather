@@ -45,18 +45,6 @@ export default class WeatherContainer extends Component {
                         humidity: ele.main.humidity,
                         wind: ele.wind.speed
                      })
-                     
-                     console.log(ele.dt_txt)
-                     console.log(ele.main.temp)
-                     console.log(ele.weather[0].description)
-                     console.log(ele.main.humidity)
-                     console.log(ele.wind.speed)
-
-                     console.log(this.props.nowTemp)
-                     console.log(this.props.weatherCondition)
-                     console.log(this.props.humidity)
-                     console.log(this.props.wind)
-
                 }
             })
         }
