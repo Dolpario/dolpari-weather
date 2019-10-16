@@ -100,7 +100,8 @@ export default class App extends Component {
       delete dayList[lastDate]
       delete daydtList[lastDate]
     }
-
+    console.log("dayList")
+    console.log(dayList)
     this.setState({ dayList: dayList, daydtList: daydtList })
     this.setMaxMinTemp()
   }
@@ -120,7 +121,8 @@ export default class App extends Component {
       maxMinTemp[ele] = [min, max]
       tempList = []
     })
-    console.log(maxMinTemp)
+    
+    // console.log(`maxMintemp: ${maxMinTemp}`)
     this.setState({ maxMinTemp: maxMinTemp })
   }
 
