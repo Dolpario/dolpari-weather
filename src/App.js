@@ -7,7 +7,7 @@ import axios from 'axios'
 import moment from 'moment'
 import HorizontalScrollViewScreen from './screens/HorizontalScrollViewScreen'
 import { thisTypeAnnotation } from '@babel/types';
-import Test from './Test'
+
 
 
 const Api_Key = '9cb7f9c88f1217eb8cb4c450c3ee6cb2'

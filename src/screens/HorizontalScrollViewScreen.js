@@ -47,9 +47,6 @@ export default class HorizontalScrollViewScreen extends Component {
                                 timeCheck={true} />
                         </View>)
                     })}
-
-
-
                 </View>
             </ScrollView>
 

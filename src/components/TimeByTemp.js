@@ -41,7 +41,7 @@ export default class TimeByTemp extends Component {
                     data={data}
                     curve={shape.curveNatural}
                     contentInset={{ top: 30, bottom: 20, left: 25, right: 25 }}
-                    svg={{ stroke: '#f12711', strokeWidth: 3 }}
+                    svg={{ stroke: 'black', strokeWidth: 3 }}
                 >
                 </LineChart>
             </View>
