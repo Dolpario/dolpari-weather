@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Dimensions, ScrollView, Text } from 'react-native'
 import WeatherContainer from './WeatherContainer'
-
+import ClearSky from '../Image/ClearSky.svg'
 
 export default class HorizontalScrollViewScreen extends Component {
 
@@ -21,7 +21,8 @@ export default class HorizontalScrollViewScreen extends Component {
             <ScrollView horizontal={true} pagingEnabled={true}>
                 <View style={styles.mainView}>
                     <View style={styles.container} width={this.screenWidth}>
-                        
+                        <ClearSky width={`120%`} height={`120%`}/>
+                        <View style={styles.absoluteContainer}>
                         <WeatherContainer
                             nowTemp={WeatherData.main.temp}
                             weatherCondition={WeatherData.weather[0].description}
@@ -32,7 +33,7 @@ export default class HorizontalScrollViewScreen extends Component {
                             timeByTemp={todayTimeByTemp}
                             timeCheack={false} />
                         {/* <WeatherContainer nowTemp={} weatherCondition={} city={} humidity={} wind={}  maxMinTemp={} timeByTemp={} /> */}
-                        
+                        </View>
                     </View>
                     {dayListKey.map((ele, index) => {
                         return (<View style={styles.container} width={this.screenWidth} key={index}>
@@ -62,8 +63,10 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center',
-        
+        justifyContent: 'center',    
     },
+    absoluteContainer:{
+        position: 'absolute'
+    }
 
 })

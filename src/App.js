@@ -122,7 +122,7 @@ export default class App extends Component {
       maxMinTemp[ele] = [min, max]
       tempList = []
     })
-    
+
     // console.log(`maxMintemp: ${maxMinTemp}`)
     this.setState({ maxMinTemp: maxMinTemp })
   }
@@ -132,6 +132,7 @@ export default class App extends Component {
   render() {
     const { WeatherData, maxMinTemp } = this.state;
     return (
+
       <View style={styles.container}>
         {
           WeatherData && maxMinTemp
@@ -139,7 +140,7 @@ export default class App extends Component {
                 style={styles.container}
                 {...this.state} />
             : <GettingWeather />
-        }
+        } 
       </View>
     );
   };
@@ -148,6 +149,8 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 })

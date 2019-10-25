@@ -6,45 +6,46 @@ import Wind from '../components/Wind'
 import TimeByTemp from '../components/TimeByTemp'
 import MaxMinTemp from '../components/MaxMinTemp'
 import moment from 'moment'
+import ClearSky from '../Image/ClearSky.svg'
 
 export default class WeatherContainer extends Component {
     constructor(props) {
         super(props);
-        this.state={ 
-            nowTemp:this.props.nowTemp, 
+        this.state = {
+            nowTemp: this.props.nowTemp,
             weatherCondition: this.props.weatherCondition,
-            city: this.props.city, 
-            humidity: this.props.humidity, 
-            wind: this.props.wind, 
-            maxMinTemp: this.props.maxMinTemp, 
-            timeByTemp: this.props.timeByTemp }
+            city: this.props.city,
+            humidity: this.props.humidity,
+            wind: this.props.wind,
+            maxMinTemp: this.props.maxMinTemp,
+            timeByTemp: this.props.timeByTemp
+        }
         this.screenWidth = Dimensions.get('window').width;
     }
 
     async componentDidMount() {
-        
+
         await this.cheackTemp(this.props.timeByTemp)
 
     }
 
     cheackTemp = (timeByTemp) => {
-        
+
         if (this.props.timeCheck) {
-            
+
             var flag = true
             timeByTemp.map(ele => {
-                
-                
-                if(Number((moment(ele.dt_txt).format("H"))>=Number(moment().format("H")) )&& flag)
-                {
-                    
-                    flag=false
+
+
+                if (Number((moment(ele.dt_txt).format("H")) >= Number(moment().format("H"))) && flag) {
+
+                    flag = false
                     this.setState({
                         nowTemp: ele.main.temp,
                         weatherCondition: ele.weather[0].description,
                         humidity: ele.main.humidity,
                         wind: ele.wind.speed
-                     })
+                    })
                 }
             })
         }
@@ -52,7 +53,7 @@ export default class WeatherContainer extends Component {
 
     render() {
         const { nowTemp, weatherCondition, city, humidity, wind, maxMinTemp, timeByTemp } = this.state;
-        
+        const weatherImageArray = { ClearSky: <ClearSky width={`120%`} height={`120%`} /> }
         return (
             <View style={styles.container}>
                 <View style={styles.IconContainer}>
@@ -69,6 +70,7 @@ export default class WeatherContainer extends Component {
                     </View>
                 </View>
             </View>
+
         );
     };
 }
@@ -76,6 +78,14 @@ export default class WeatherContainer extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    AbsoluteContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'absolute'
     },
     IconContainer: {
         flex: 2,
@@ -83,7 +93,7 @@ const styles = StyleSheet.create({
     },
     AddDataContainer: {
         flex: 1,
-        backgroundColor: 'white'
+
     },
     SplitDataContainer: {
         flex: 1,
