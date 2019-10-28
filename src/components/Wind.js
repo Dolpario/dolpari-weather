@@ -11,7 +11,7 @@ export default class Wind extends Component {
         const { wind } = this.props;
         return (
             <View style={styles.container}>
-                <Icon name='wind' size={50}></Icon>
+                <Icon name='wind' size={50} color='white'></Icon>
                 <Text style={styles.WindFont}>{`${wind}m/s`}</Text>
             </View>
         );
@@ -26,10 +26,12 @@ const styles = StyleSheet.create({
     },
     IconSize: {
         width: 40,
-        height: 40
+        height: 40,
+        
     },
     WindFont: {
         fontSize: 20,
-        marginLeft: 10
+        marginLeft: 10,
+        color: 'white'
     },
 })

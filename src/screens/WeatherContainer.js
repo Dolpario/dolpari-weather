@@ -6,7 +6,6 @@ import Wind from '../components/Wind'
 import TimeByTemp from '../components/TimeByTemp'
 import MaxMinTemp from '../components/MaxMinTemp'
 import moment from 'moment'
-import ClearSky from '../Image/ClearSky.svg'
 
 export default class WeatherContainer extends Component {
     constructor(props) {
@@ -53,7 +52,6 @@ export default class WeatherContainer extends Component {
 
     render() {
         const { nowTemp, weatherCondition, city, humidity, wind, maxMinTemp, timeByTemp } = this.state;
-        const weatherImageArray = { ClearSky: <ClearSky width={`120%`} height={`120%`} /> }
         return (
             <View style={styles.container}>
                 <View style={styles.IconContainer}>
