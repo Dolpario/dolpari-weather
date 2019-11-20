@@ -7,15 +7,15 @@ export default class Weathers extends Component {
     }
 
     render() {
-        const { nowTemp, weatherCondition, city } = this.props;
+        const { nowTemp, weatherCondition, city ,isBlack} = this.props;
         return (
             <View style={styles.container}>
                 {/* <Icon name="cloud" size={100}></Icon>   */}
-                <Text style={styles.TempFont}>{nowTemp && Math.round(nowTemp)}º</Text>
+                <Text style={[styles.TempFont, { color: isBlack ? 'black' : 'white' }]}>{nowTemp && Math.round(nowTemp)}º</Text>
                 {/* <Text style={styles.TempMaxMinFont}>{this.props.WeatherData.weather[0].main}</Text> */}
                 <Text style={{ padding: 20 }}></Text>
-                <Text style={styles.TempDescription}>{weatherCondition}</Text>
-                <Text style={styles.TempDescription}>{city}</Text>
+                <Text style={[styles.TempDescription, { color: isBlack ? 'black' : 'white' }]}>{weatherCondition}</Text>
+                <Text style={[styles.TempDescription, { color: isBlack ? 'black' : 'white' }]}>{city}</Text>
             </View>
         );
     };
@@ -32,14 +32,17 @@ const styles = StyleSheet.create({
         height: 50
     },
     TempFont: {
-        fontSize: 50
+        fontSize: 50,
+        color: 'white'
     },
     TempMaxMinFont: {
         marginTop: 10,
-        fontSize: 20
+        fontSize: 20,
+        color: 'white'
     },
     TempDescription:
     {
-        fontSize: 20
+        fontSize: 20,
+        color: 'white'
     }
 })

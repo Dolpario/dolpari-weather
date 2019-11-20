@@ -8,11 +8,11 @@ export default class Wind extends Component {
     }
 
     render() {
-        const { wind } = this.props;
+        const { wind,isBlack } = this.props;
         return (
             <View style={styles.container}>
-                <Icon name='wind' size={50} color='white'></Icon>
-                <Text style={styles.WindFont}>{`${wind}m/s`}</Text>
+                <Icon name='wind' size={50} color={isBlack?'black':'white'}></Icon>
+                <Text style={isBlack?styles.BWindFont:styles.WindFont}>{`${wind}m/s`}</Text>
             </View>
         );
     };
@@ -30,6 +30,11 @@ const styles = StyleSheet.create({
         
     },
     WindFont: {
+        fontSize: 20,
+        marginLeft: 10,
+        color: 'white'
+    },
+    BWindFont: {
         fontSize: 20,
         marginLeft: 10,
         color: 'white'

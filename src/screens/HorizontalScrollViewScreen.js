@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Dimensions, ScrollView, Text } from 'react-native'
 import WeatherContainer from './WeatherContainer'
 import ClearSky from '../Image/ClearSky.svg'
+import Cloud from '../Image/Cloud.svg'
+import Fog from '../Image/Fog.svg'
+import Rain from '../Image/Rain.svg'
+import Snow from '../Image/Snow.svg'
+import Thunderstrom from '../Image/Thunderstrom.svg'
+
+
 
 export default class HorizontalScrollViewScreen extends Component {
 
@@ -12,9 +19,7 @@ export default class HorizontalScrollViewScreen extends Component {
         }
         this.screenWidth = Dimensions.get('window').width;
         this.screenHeight = Dimensions.get('window').height;
-        // console.log("daylist")
-        // console.log(this.props.dayList)
-        
+
     }
 
 
@@ -34,11 +39,12 @@ export default class HorizontalScrollViewScreen extends Component {
         this.setState({
             svgConvertArray: idCodeArray
         })
+
     }
 
     checkIdCode =(id)=>{
         if(id>=200 && id<300){
-            return 'Thunderstorm'
+            return 'Thunderstrom'
         }
         else if(id>=300 && id<600){
             return'Rain'
@@ -64,19 +70,19 @@ export default class HorizontalScrollViewScreen extends Component {
         const dayListKey = Object.keys(dayList)
         const svgConvertArray = this.state.svgConvertArray
         const svgImageObject={
-            Thunderstorm : null,
-            Rain: null,
-            Snow: null,
-            Cloud: <ClearSky width={`100%`} />,
-            ClearSky: <ClearSky width={`100%`} />,
-            BadWeather: <ClearSky width={`100%`} />
+            Thunderstrom :  <Thunderstrom width={`100%`} height={`120%`}/>,
+            Rain: <Rain width={`100%`} height={`120%`}/>,
+            Snow: <Snow width={`100%`} height={`120%`}/>,
+            Cloud: <Cloud  width={`100%`} height={`120%`}/>,
+            ClearSky: <ClearSky width={`100%`} height={`120%`}/>,
+            BadWeather: <Fog width={`100%`} height={`120%`}/>
         }
         return (
             <ScrollView horizontal={true} pagingEnabled={true}>
                 <View style={styles.mainView}>
                     <View style={styles.container} width={this.screenWidth}>
                         <View style={styles.svgContainer}>
-                            {svgImageObject[svgConvertArray[4]]}
+                           {svgImageObject[svgConvertArray[4]]}
                         </View>
                         <View style={styles.absoluteContainer}>
                             <WeatherContainer
@@ -87,7 +93,9 @@ export default class HorizontalScrollViewScreen extends Component {
                                 wind={WeatherData.wind.speed}
                                 maxMinTemp={todayMaxMintemp}
                                 timeByTemp={todayTimeByTemp}
-                                timeCheack={false} />
+                                timeCheack={false} 
+                                isBlack={svgConvertArray[4]==='BadWeather'?true:false}
+                                />
                             {/* <WeatherContainer nowTemp={} weatherCondition={} city={} humidity={} wind={}  maxMinTemp={} timeByTemp={} /> */}
                         </View>
                     </View>
@@ -97,6 +105,8 @@ export default class HorizontalScrollViewScreen extends Component {
                                 {svgImageObject[svgConvertArray[index]]}
                             </View>
                             <View style={styles.absoluteContainer}>
+                                {console.log("isBlack")}
+                                {console.log(isBlack)}
                                 <WeatherContainer
                                     nowTemp={null}
                                     weatherCondition={null}
@@ -105,7 +115,9 @@ export default class HorizontalScrollViewScreen extends Component {
                                     wind={null}
                                     maxMinTemp={maxMinTemp[ele]}
                                     timeByTemp={daydtList[ele]}
-                                    timeCheck={true} />
+                                    timeCheck={true} 
+                                    isBlack={svgConvertArray[index]==='BadWeather'?true:false}
+                                    />
                             </View>
                         </View>)
                     })}

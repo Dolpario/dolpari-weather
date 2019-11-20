@@ -55,7 +55,7 @@ export default class App extends Component {
 
   getWeather = async (longitude, latitude) => {
     let { data } = await axios(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${Api_Key}&units=metric&lang=kr`)
-    // console.log(data)
+   
 
     this.setState({ WeatherData: data, city: data.name });
   }
@@ -63,7 +63,7 @@ export default class App extends Component {
 
   fiveDaysGetWeather = async (longitude, latitude) => {
     let { data } = await axios(`http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${Api_Key}&units=metric&lang=kr`)
-    // console.log(data)
+    
     this.setState({ fiveWeatherData: data });
     this.setDayTimeArray();
   }
@@ -101,8 +101,6 @@ export default class App extends Component {
       delete dayList[lastDate]
       delete daydtList[lastDate]
     }
-    console.log("dayList")
-    console.log(dayList)
     this.setState({ dayList: dayList, daydtList: daydtList })
     this.setMaxMinTemp()
   }
@@ -123,7 +121,6 @@ export default class App extends Component {
       tempList = []
     })
 
-    // console.log(`maxMintemp: ${maxMinTemp}`)
     this.setState({ maxMinTemp: maxMinTemp })
   }
 

@@ -8,11 +8,11 @@ export default class Humidity extends Component {
     }
 
     render() {
-        const { humidity } = this.props;
+        const { humidity,isBlack } = this.props;
         return (
             <View style={styles.container}>
-                <Icon name='water-percent' size={50}></Icon>
-                <Text style={styles.HumidityFont}>{ humidity }%</Text>
+                <Icon name='water-percent' size={50} color={this.props.isBlack?'black':'white'}></Icon>
+                <Text style={isBlack?BHumidityFont:styles.HumidityFont}>{ humidity }%</Text>
             </View>
         );
     };
@@ -26,6 +26,12 @@ const styles = StyleSheet.create({
     },
     HumidityFont: {
         fontSize: 20,
-        marginLeft: 10
+        marginLeft: 10,
+        color: 'white'
+    },
+    BHumidityFont: {
+        fontSize: 20,
+        marginLeft: 10,
+        color: 'black'
     },
 })

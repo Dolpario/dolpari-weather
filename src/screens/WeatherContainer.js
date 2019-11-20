@@ -31,13 +31,9 @@ export default class WeatherContainer extends Component {
     cheackTemp = (timeByTemp) => {
 
         if (this.props.timeCheck) {
-
             var flag = true
             timeByTemp.map(ele => {
-
-
                 if (Number((moment(ele.dt_txt).format("H")) >= Number(moment().format("H"))) && flag) {
-
                     flag = false
                     this.setState({
                         nowTemp: ele.main.temp,
@@ -52,19 +48,21 @@ export default class WeatherContainer extends Component {
 
     render() {
         const { nowTemp, weatherCondition, city, humidity, wind, maxMinTemp, timeByTemp } = this.state;
+        const {isBlack} = this.props
         return (
             <View style={styles.container}>
                 <View style={styles.IconContainer}>
-                    <Weathers nowTemp={nowTemp} weatherCondition={weatherCondition} city={city} />
+                    <Weathers nowTemp={nowTemp} weatherCondition={weatherCondition} city={city} isBlack={isBlack} />
                 </View>
                 <View style={styles.AddDataContainer}>
+              
                     <View style={styles.SplitDataContainer} width={this.screenWidth}>
-                        <Humidity humidity={humidity} />
-                        <Wind wind={wind} />
-                        <MaxMinTemp maxMinTemp={maxMinTemp} />
+                        <Humidity humidity={humidity} isBlack={isBlack}/>
+                        <Wind wind={wind} isBlack={isBlack} />
+                        <MaxMinTemp maxMinTemp={maxMinTemp} isBlack={isBlack} />
                     </View>
                     <View style={styles.SplitDataContainer}>
-                        <TimeByTemp timeByTemp={timeByTemp} />
+                        <TimeByTemp timeByTemp={timeByTemp}  isBlack={isBlack} />
                     </View>
                 </View>
             </View>

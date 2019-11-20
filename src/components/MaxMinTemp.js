@@ -11,10 +11,11 @@ export default class MaxMinTemp extends Component {
     render() {
         const minTemp = this.props.maxMinTemp[0];
         const maxTemp = this.props.maxMinTemp[1];
+        const {isBlack} = this.props;
         return (
             <View style={styles.container}>
-                <Icon name='thermometer-three-quarters' size={50}></Icon>
-                <Text style={styles.MaxMinTempFont}>{Math.round(minTemp)}º/{Math.round(maxTemp)}º</Text>
+                <Icon name='thermometer-three-quarters' size={50} color={this.props.isBlack?'black':'white'}></Icon>
+                <Text style={isBlack?styles.BMaxMinTempFont:styles.MaxMinTempFont}>{Math.round(minTemp)}º/{Math.round(maxTemp)}º</Text>
             </View>
         );
     };
@@ -29,6 +30,12 @@ const styles = StyleSheet.create({
     },
     MaxMinTempFont: {
         fontSize: 20,
-        marginLeft: 10
+        marginLeft: 10,
+        color: 'white'
+    },
+    BMaxMinTempFont: {
+        fontSize: 20,
+        marginLeft: 10,
+        color: 'white'
     },
 })
