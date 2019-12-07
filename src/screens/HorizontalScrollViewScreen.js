@@ -96,6 +96,7 @@ export default class HorizontalScrollViewScreen extends Component {
                                 timeCheack={false} 
                                 isBlack={svgConvertArray[4]==='BadWeather'?true:false}
                                 />
+                                {/*{}*/}
                             {/* <WeatherContainer nowTemp={} weatherCondition={} city={} humidity={} wind={}  maxMinTemp={} timeByTemp={} /> */}
                         </View>
                     </View>
@@ -105,8 +106,7 @@ export default class HorizontalScrollViewScreen extends Component {
                                 {svgImageObject[svgConvertArray[index]]}
                             </View>
                             <View style={styles.absoluteContainer}>
-                                {console.log("isBlack")}
-                                {console.log(isBlack)}
+                                
                                 <WeatherContainer
                                     nowTemp={null}
                                     weatherCondition={null}
@@ -118,6 +118,7 @@ export default class HorizontalScrollViewScreen extends Component {
                                     timeCheck={true} 
                                     isBlack={svgConvertArray[index]==='BadWeather'?true:false}
                                     />
+                                    {/*{isBlack={svgConvertArray[index]==='BadWeather'?true:false}}*/}
                             </View>
                         </View>)
                     })}
