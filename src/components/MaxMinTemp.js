@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
     BMaxMinTempFont: {
         fontSize: 20,
         marginLeft: 10,
-        color: 'white'
+        color: 'black'
     },
 })

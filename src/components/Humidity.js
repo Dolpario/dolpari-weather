@@ -12,7 +12,7 @@ export default class Humidity extends Component {
         return (
             <View style={styles.container}>
                 <Icon name='water-percent' size={50} color={this.props.isBlack?'black':'white'}></Icon>
-                <Text style={isBlack?BHumidityFont:styles.HumidityFont}>{ humidity }%</Text>
+                <Text style={isBlack?styles.BHumidityFont:styles.HumidityFont}>{ humidity }%</Text>
             </View>
         );
     };

@@ -37,6 +37,6 @@ const styles = StyleSheet.create({
     BWindFont: {
         fontSize: 20,
         marginLeft: 10,
-        color: 'white'
+        color: 'black'
     },
 })
